@@ -1,6 +1,12 @@
 # Django Boilerplate
 
-This is an *example* of a simple boilerplate of a dockerized django project using celery and rabbitmq for managing tasks. It also uses pipenv.
+This is an *example* of a simple boilerplate of a dockerized django project using celery and rabbitmq for managing tasks.   
+There's also a premade example of an async task.
+
+It also includes:
+- bootstrap 4.0.0 - w/ jquery & popperjs
+
+
 
 
 
