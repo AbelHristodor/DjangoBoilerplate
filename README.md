@@ -30,3 +30,5 @@ Once finished, while the app is running, open another terminal and migrate the a
 The app will be running at: http://localhost:8000/
 
 If you can't run those command without sudo see: [Docker-docs-for-linux](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user) or [Stackoverflow-fix](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
+
+Thanks to @Silvian for helping me :))
