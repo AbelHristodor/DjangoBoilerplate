@@ -4,10 +4,14 @@ This is an *example* of a simple boilerplate of a dockerized django project usin
 There's also a premade example of an async task.
 
 It also includes:
-- bootstrap 4.0.0 - w/ jquery & popperjs
+- Bootstrap 4.0.0 - w/ jquery & popperjs
+- Postgresql DB
 
-
-
+# Bootstrap
+To use this project as a template, start your new project using:
+```
+django-admin startproject myproject --extension py,yml,json --name README.md --template https://github.com/AbelHristodor/django-boilerplate/archive/master.zip
+```
 
 
 # Installation Guide:
@@ -34,6 +38,9 @@ Once finished, while the app is running, open another terminal and migrate the a
     ```docker-compose run --rm web scripts/migrate_loaddata.sh```
 
 The app will be running at: http://localhost:8000/
+### App management
+- To start the app use ```docker-compose up```
+- To stop the app use ```docker-compose down```
 
 If you can't run those command without sudo see: [Docker-docs-for-linux](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user) or [Stackoverflow-fix](https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue)
 
