@@ -10,3 +10,4 @@ kombu==4.2.2
 psycopg2==2.7.3
 pytz==2018.7
 vine==1.1.4
+python-memcached==1.59
