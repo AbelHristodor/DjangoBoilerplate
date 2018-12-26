@@ -8,9 +8,11 @@ env:
     - DATABASE_NAME=postgres
     - DATABASE_USER=postgres
     - DATABASE_PASSWORD=postgres
+
 before_install:
   - touch .env
   - docker-compose build
   - docker-compose run --rm web scripts/migrate_loaddata.sh
+
 scripts:
- - scripts/test.sh
+  - scripts/test.sh
