@@ -1,4 +1,3 @@
-language: python
 sudo: required
 services:
   - docker
@@ -14,5 +13,3 @@ before_install:
   - docker-compose build
   - docker-compose run --rm web scripts/migrate_loaddata.sh
 
-scripts:
-  - scripts/test.sh
