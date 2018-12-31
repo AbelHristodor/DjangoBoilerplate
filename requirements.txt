@@ -7,7 +7,7 @@ django-cron==0.5.1
 django==2.1.4
 gunicorn==19.9.0
 kombu==4.2.2
-psycopg2==2.7.3
+psycopg2==2.7.3.2
 pytz==2018.7
 vine==1.1.4
 python-memcached==1.59
