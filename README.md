@@ -1,6 +1,6 @@
 # Django Boilerplate
 
-[![Build Status](https://travis-ci.com/AbelHristodor/django-boilerplate.svg?branch=master)](https://travis-ci.com/AbelHristodor/django-boilerplate)
+[![Build Status](https://travis-ci.com/AbelHristodor/DjangoBoilerplate.svg?branch=master)](https://travis-ci.com/AbelHristodor/DjangoBoilerplate)
 
 This is an *example* of a simple boilerplate of a dockerized django project using celery and rabbitmq for managing tasks.   
 There's also a premade example of an async task.
