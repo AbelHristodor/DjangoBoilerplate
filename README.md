@@ -14,6 +14,10 @@ To use this project as a template, start your new project using:
 ```
 django-admin startproject myproject --extension py,yml,json --name README.md --template https://github.com/AbelHristodor/django-boilerplate/archive/master.zip
 ```
+Then rename your project with:
+```
+python manage.py rename yourprojectname
+```
 
 
 # Installation Guide:
