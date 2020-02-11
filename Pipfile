@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==2.1.11"
+django = "==2.2.10"
 celery = "==4.2.1"
 gunicorn = "==20.0.3"
 django-cron = "==0.5.1"
